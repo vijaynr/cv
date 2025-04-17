@@ -15,14 +15,18 @@ A command-line tool that converts YML into PDF and HTML. The primary use case fo
     - [ ] PDF should be the default format for the document produced. The resulting document must be a valid resume that adheres to best resume guidelines.
     - [ ] `--format` - A subcommand necessary to provide options for multiple output formats. For example, the user may want their resume in DOCX or DOC format.
     - [ ] `--style` - A subcommand necessary to offer options for creating documents with different styles. There should be at least 2 or 3 predefined styles to choose from, and these styles must be customizable.
-- [ ] Finalize the libraries and tech stack that needs to be used.
+- [x] Finalize the libraries and tech stack that needs to be used.
+  - [x] Which language to use?
+  - [x] What libraries to use?
 
 ## Tech Stack
 
 - Language
-  - zig
+  - java
 - Libraries
-  - zig-yaml/ymlz - to parse yaml files
-  - ? - to create html file
-  - ? - to parse css files
-  - ? - to convert html to pdf file
+  - Java
+    - Snakeyaml - to parse yaml files
+    - j2html - to create html file
+    - ph-css - to parse css files
+    - openpdf - to convert html to pdf
+
