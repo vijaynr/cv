@@ -17,16 +17,14 @@ A command-line tool that converts YML into PDF and HTML. The primary use case fo
     - [ ] `--style` - A subcommand necessary to offer options for creating documents with different styles. There should be at least 2 or 3 predefined styles to choose from, and these styles must be customizable.
 - [x] Finalize the libraries and tech stack that needs to be used.
   - [x] Which language to use?
+    *We will use java*
   - [x] What libraries to use?
+    *We will use required libraries as listed below*
 
-## Tech Stack
+## Libraries
 
-- Language
-  - java
-- Libraries
-  - Java
-    - Snakeyaml - to parse yaml files
-    - j2html - to create html file
-    - ph-css - to parse css files
-    - openpdf - to convert html to pdf
+  - snakeyaml - to parse yaml files
+  - j2html - to create html file 
+  - ph-css - to parse css files
+  - openpdf - to convert html to pdf
 
